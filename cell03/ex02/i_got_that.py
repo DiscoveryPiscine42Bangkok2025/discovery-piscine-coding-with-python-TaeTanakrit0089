@@ -5,7 +5,6 @@ def main():
     while user_input != "STOP":
         print("I got that! Anything else? :", end=" ")
         user_input = input()
-    # exits when "STOP" is entered exactly
 
 if __name__ == "__main__":
     main()
