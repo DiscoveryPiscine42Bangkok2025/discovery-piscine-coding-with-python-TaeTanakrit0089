@@ -5,7 +5,6 @@ def main():
 
     new_array = list({x + 2 for x in original_array if x > 5})
 
-    # Display both arrays
     print(original_array)
     print(new_array)
 
