@@ -12,6 +12,8 @@ def main():
     for arg in args:
         if not arg.endswith("ism"):
             print(arg + "ism")
+        else:
+            print(arg)
 
 
 if __name__ == "__main__":
